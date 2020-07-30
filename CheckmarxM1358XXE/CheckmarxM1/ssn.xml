@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ELEMENT root    (header,ssn)>
+<!ELEMENT header  (#PCDATA)>
+<!ELEMENT ssn     (#PCDATA)>
+<!ENTITY intro SYSTEM "https://s3.amazonaws.com/www.ddkmobile.com/checkmarx/externalEntity.txt">
+]>
+
+<root>
+    <ssn>88776655</ssn>
+    <header>&intro;</header>
+</root>
